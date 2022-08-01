@@ -6,7 +6,7 @@
 	    <origin rpy="0 0 -1.57" xyz="0 0 0"/>
 	    <scale>0.001 0.001 0.001</scale>
       <geometry>
-        <mesh filename="package://ars_robot_models/meshes/dji.dae" scale="0.01 0.01 0.01"/>
+        <mesh filename="package://ars_robot_models/meshes/dji_m100.dae" scale="0.01 0.01 0.01"/>
       </geometry>
 	  	<material name="blue">
 	 			<color rgb="0 0 200" alpha="0.5"/>

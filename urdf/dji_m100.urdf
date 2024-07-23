@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<robot name="DJI_Matrice_100">
+<robot name="DJI_Matrice_100" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <link name="robot_base_link">
-	  <visual>
-	    <origin rpy="0 0 -1.57" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://ars_robot_models/meshes/dji_m100.dae" scale="0.01 0.01 0.01"/>
-      </geometry>
-	  	<material name="blue">
-			  <color rgb="0 0 200" alpha="0.5"/>
- 		  </material>
-	  </visual>
-  </link>
+	<link name="robot_base_link">
+		<visual>
+		<origin rpy="0 0 -1.57" xyz="0 0 0"/>
+		<geometry>
+			<mesh filename="package://ars_robot_models/meshes/dji_m100.dae" scale="0.01 0.01 0.01"/>
+		</geometry>
+		<material name="blue">
+			<color rgba="0 0 1.0 0.5"/>
+		</material>
+		</visual>
+	</link>
 
 </robot>
 
